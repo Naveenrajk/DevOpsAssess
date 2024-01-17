@@ -16,10 +16,9 @@ public class SpringBootRestApplication {
 
 	public Customer menu() {
 		Scanner sc = new Scanner(System.in);
-		//System.out.println("Enter Customer Id, FName, LName, Age and City : ");
+		System.out.println("Enter Customer Id, FName, LName, Age and City : ");
 
-		return new Customer(101, "Naveen", "Raj", 22, "London");
-		//return new Customer(sc.nextInt(), sc.next(), sc.next(), sc.nextInt(), sc.next());
+		return new Customer(sc.nextInt(), sc.next(), sc.next(), sc.nextInt(), sc.next());
 	}
 
 	public static void main(String[] args) {
@@ -31,7 +30,8 @@ public class SpringBootRestApplication {
 
 		CustomerController control = new CustomerController();
 		control.performInsert(bean);
-		
+
 	}
 
 }
+
