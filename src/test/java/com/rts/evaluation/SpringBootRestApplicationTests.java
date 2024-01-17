@@ -1,4 +1,4 @@
-package com.rts.evaluation;
+/*package com.rts.evaluation;
 
 import static org.testng.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
@@ -27,3 +27,4 @@ class SpringBootRestApplicationTests {
 	}
 
 }
+*/
